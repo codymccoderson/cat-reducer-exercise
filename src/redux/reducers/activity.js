@@ -11,21 +11,21 @@ const activityReducer = (state = initialState, action) => {
         case ACTION_NAP: {
             return {
                 ...state,
-                activity: napping
+                activity: "napping"
             }
         }
 
         case ACTION_EAT: {
             return {
                 ...state,
-                activity: eating
+                activity: "eating"
             }    
         }
 
         case ACTION_PLAY: {
             return {
                 ...state,
-                activity: eating
+                activity: "playing"
             }
         }
 
